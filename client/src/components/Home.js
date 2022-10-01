@@ -1,0 +1,38 @@
+function Home() {
+
+    return(<>
+    <h1>My Personal Website</h1>
+      <section class="header-text">
+      <h1>The Journey of Learning Code</h1>
+      <h2>Explore my Portfolio</h2>
+      <h3>On my Path to Becoming a Programmer</h3>
+    </section>
+    <section class="content">
+      <div class="content-box projects">
+        <span>Projects</span>
+      </div>
+      <div class="content-box ideas">
+        <span>Ideas/Concepts</span>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-container">
+        <div class="about-col headshot-box">
+          <img class="headshot" src="Images/Headshot2.png" />
+        </div>
+        <div class="about-col links-box">
+          <div class="about-links">
+            <a href="#" id="resume">Resume</a>
+            <a href="#" id="linkedin">LinkedIn</a>
+          </div>
+        </div>
+        <div class="about-col bio-box">
+          <h3>ABOUT ME</h3>
+          <p>Hi, my name is Jordan Buren. I'm aspiring to become a skilled Full Stack Developer! I come from a background of Training and Management in the Telehealth, Financial and Insurance industries. I'm excited for the opportunities that lie ahead. Feel free to reach out to me via email, and my resume is also available to the left.</p>        </div>
+      </div>
+      </section>
+      </>
+    )
+}
+
+export default Home
